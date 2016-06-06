@@ -19,12 +19,12 @@ namespace NewUser_Console
 {
     class Program
     {
-        private const string SERVICE_ACCOUNT_ID ="344452306730-nso0imsbcclfll7iic04lok80fohml6i.apps.googleusercontent.com";
-        private const string SERVICE_ACCOUNT_EMAIL = "344452306730-nso0imsbcclfll7iic04lok80fohml6i@developer.gserviceaccount.com";
+        private const string SERVICE_ACCOUNT_ID ="<SERVICE_ACCOUNT_ID>";
+        private const string SERVICE_ACCOUNT_EMAIL = "<SERVICE_ACCOUNT_EMAIL>";
         private const string SERVICE_ACCOUNT_PKCS12_FILE_PATH = @"D:\Projects\Sandbox\NewUser_Console\NewUser_Console\TestFANUserCreation-5883f2e94545.p12";
 
-        private const string CLIENT_ID = "344452306730-7t645du5g7cmsgibq4dr3p91nmlgc9vo.apps.googleusercontent.com";
-        private const string CLIENT_SECRET = "0z_utX6tWx-TfeIqW68yJ0AY";
+        private const string CLIENT_ID = "<SERVICE_ACCOUNT_EMAIL>";
+        private const string CLIENT_SECRET = "<CLIENT_SECRET>";
 
         private const string USER_EMAIL = "diazam@dev.fan.gov"; //Service Account needs to be assocaited with an admin email. 
 
